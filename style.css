@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.img-logo {
+    width: 145px;
+}
+.header {
+    width: 100%;
+    background-color: #ff6b81;
+    justify-content: space-around;
+    position: fixed;
+}
+.header-active {
+    color: black;
+    background-color: white;
+}
+.div-header{
+    display: block;
+    background: #ff6b81;
+    padding: 1% 16% 4% ;
+    
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+ul, .img-logo:hover {
+cursor:pointer;
+}
+.item-nav-butons{
+    display: flex;
+    justify-content: center;
+}
+.btn-nav {
+    background-color: #ff6b81;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 16px 30px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    border:2px solid white;
+    margin-bottom: 1%;
+}
+.btn-nav:hover {
+    background-color: white;
+    color: #ff6b81;
+}
+.big-div-two-phone {
+min-width: 1000px;
+margin-top: 150px;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.words-buttons{
+    display:flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 230px;
+
+}
+.powerful-app {
+    font-size:34px;
+    color: white;
+    font-weight:750;
+}
+.small-font {
+    color: white;
+    font-size: medium;
+}
+.img-phones {
+    width: 650px;
+}
+.img-ios{
+    width: 20px;
+    color: pink;
+}
+.btn-ios{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: medium;
+    font-weight: bold;
+    color:#ff6b81 ;
+    border:2px solid white;
+}
+.btn-ios:hover {
+background-color:black;
+color: white;
+border-color: black;
+}
+.btn-android {
+    position: relative;
+    justify-content: center;
+    background-color: #ff6b81;
+    cursor: pointer;
+    margin-left: 14px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    padding-top: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color:white ;
+    border:2px solid white;
+}
+.btn-android:hover{
+    background-color: white;
+    color: #ff6b81;
+}
+.img-android {
+width: 20px;
+}
+
+/* Features Page  & Pricing PAge*/
+
+.bigDivPage{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        background-color: rgb(248, 248, 248);
+}
+.feature-first-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titlePage{
+    padding: 7% 0 0 0 ;
+    color: #ff6b81;
+    font-weight: 600;
+    font-size: 15px;
+}
+.bigTxt{
+    font-size: 34px;
+    font-weight:bold;
+}
+.over-time{
+    margin-left: 250px;
+}
+.last-txt {
+    margin: 1% 0 7% 0;
+    color: rgb(170, 159, 159);
+}
+.span-last-txt{
+    margin-left: 200px;
+}
+.blocks{
+    margin: 4% 0 5% 0;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.img-block{
+    width: 60px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    height: 250px;
+    padding: 2%;
+    background-color: white;
+    border-radius: 7px;
+}
+.block:hover {
+   transform:translateY(10px);
+   transition: all 0.3s ease 0s;
+}
+.overview-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+.overview-second-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.txt-buttons-overview{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-overview {
+    padding-top: 10%;
+}
+.imgBig{
+    width: 550px;
+}
+.big-txt{
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.small-txt{
+    font-size: 15px;
+    line-height: 24px;
+    color:rgb(170, 159, 159);
+    padding: 20px 0;
+}
+.div-numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pink-txt-big{
+    color:white;
+font-size:'190px';
+font-weight:'800';
+font-family:'sans - serif';
+}
+.pink-txt-small{
+color:white;
+margin:'15px 80px';
+font-family:'sans-serif';
+font-size: '15px';
+}
+.first-small-txt-pink{
+    font-size: 18px;
+    padding: 2% 0% 6% 10% ;
+}
+ul {
+    list-style:none;
+}
+.allBlocks {
+    width: 70%;
+    display: flex;
+    margin-bottom: 5%;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 3%;
+}
+.big-div {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0;
+    padding: 2%;
+    border-radius: 10px;
+}
+.big-div:hover {
+   transform:translateY(10px);
+   transition: all 0.3s ease 0s;
+}
+.first-block {
+    display: flex;
+    flex-direction: column;
+  padding: 3%;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  
+}
+.titleBlock{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.pBlock {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color:#888888
+}
+.priceBlock {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.pricingBtn {
+    width: 100%;
+    padding: 12px 30px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    margin-bottom: 7%;
+    border-radius: 7px;
+}
+.pricingBtn:hover {
+    cursor: pointer;
+    background-color:#ff6b81;
+    border-color:#ff6b81 ;
+}
+.h4Pricing {
+    margin: 10%;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
