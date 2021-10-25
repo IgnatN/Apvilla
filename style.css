@@ -5,9 +5,12 @@
     font-family: sans-serif;
     scroll-behavior: smooth;
 }
-a {
+ a{
     text-decoration: none;
     color: white;
+}
+a:hover {
+    color:black;
 }
 .img-logo {
     width: 145px;
@@ -128,7 +131,7 @@ width: 20px;
 
 /* Features Page  & Pricing PAge*/
 
-.bigDivPage{ 
+.bigDivPage, .contact{ 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -267,7 +270,6 @@ ul {
     flex-direction: column;
   padding: 3%;
   border-bottom: 1px solid rgb(231, 231, 231);
-  
 }
 .titleBlock{
     font-size: 16px;
@@ -306,4 +308,100 @@ ul {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
+}
+.team, .names-jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teamBlock{
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    margin-bottom: 6%;
+}   
+.names-jobs{
+    margin: 25px;
+}
+.contentTeam {
+    border: 1px solid rgb(235, 234, 234);
+    border-radius: 0 0 10px 10px;
+}
+.imgTeam:hover { 
+    transform: scale(1.1);
+    transition:all 1s;
+    cursor: pointer;
+}
+.address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 150px;
+    gap: 8%;
+    font-family: sans-serif;
+    margin: 4% 0 8% 0;
+    background: white;
+    color: rgb(122, 122, 122);
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.address:hover {
+    background: #ff6b81;
+    color: white;
+    transition: 0.6s;
+}
+.contactBlocks{
+    display: flex;
+    gap: 1%;   
+}
+.imgContact {
+    width: 35px;
+}
+.p-contact:hover {
+    cursor: pointer;
+}
+iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+.footer {
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(0, 0, 49);
+    color: white;
+   padding-top: 6%;
+   gap: 15%;
+}
+.socials {
+   display: flex;
+   flex-direction: column;
+   font-size: 15px;
+   gap: 10%;
+
+}
+.aLLcolumn {
+    display: flex;
+    justify-content:space-around;
+}
+.column {
+    margin: 0 45px;
+}
+.fa {
+    margin: 12px;
+}
+
+li{
+    margin-bottom: 1em;
+}
+li:hover {
+    color:#ff6b81;
+}
+.fa:hover {
+    color: #ff6b81;
 }
