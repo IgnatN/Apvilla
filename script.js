@@ -85,16 +85,15 @@ freelancer.showBlock();
 let startup = new Block('Startup', 'All the basics for starting a new business', '$32', 'Buy Startup');
 startup.showBlock();
 enterprise = new Block('Enterprise', 'All the basics for starting a new business', '$48', 'Buy Enterprise');
-enterprise.showBlock()
+enterprise.showBlock();
 
 let li = document.querySelectorAll('.liBlock')
 li.forEach(list => {
-    list.style.position = 'relative';
     list.style.paddingLeft = '25px';
     list.style.fontSize = '14px';
     list.style.marginBottom = '13px';
     list.style.color = '#888888';
-})
+});
 
 let team = document.querySelector('.teamBlock');
 class Team {
