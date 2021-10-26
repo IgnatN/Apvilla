@@ -20,6 +20,7 @@ a:hover {
     background-color: #ff6b81;
     justify-content: space-around;
     position: fixed;
+    z-index: 3;
 }
 .header-active {
     color: black;
